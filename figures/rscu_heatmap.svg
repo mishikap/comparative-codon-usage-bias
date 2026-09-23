@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="468" viewBox="0 0 1000 468" role="img" aria-labelledby="title desc">
+<title id="title">Relative synonymous codon usage across six organisms</title>
+<desc id="desc">Heatmap of 18 variable sense codons, with six organism rows. Blue indicates lower RSCU, white approximately one, and red higher RSCU.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="39" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#18253a">Codon preference across six organisms</text>
+<text x="30" y="63" font-family="Arial,sans-serif" font-size="13" fill="#526173">Relative synonymous codon usage (RSCU) · 18 codons with greatest variation</text>
+<text x="269.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">CTG</text>
+<text x="308.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">AGA</text>
+<text x="347.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">CGC</text>
+<text x="386.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">CTC</text>
+<text x="425.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">ATC</text>
+<text x="464.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">ACC</text>
+<text x="503.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">CGT</text>
+<text x="542.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">CCG</text>
+<text x="581.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">TTA</text>
+<text x="620.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">GGC</text>
+<text x="659.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">AGC</text>
+<text x="698.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">ACA</text>
+<text x="737.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">TCG</text>
+<text x="776.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">CGG</text>
+<text x="815.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">ATT</text>
+<text x="854.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">TCT</text>
+<text x="893.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">GCG</text>
+<text x="932.5" y="96" text-anchor="middle" font-family="monospace" font-size="13" fill="#24344a">TTC</text>
+<text x="238" y="135" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#24344a">Escherichia coli K-12</text>
+<rect x="250" y="108" width="37" height="42" rx="3" fill="#ba383f"><title>Escherichia coli K-12: CTG, RSCU 2.97</title></rect>
+<rect x="289" y="108" width="37" height="42" rx="3" fill="#5b78ad"><title>Escherichia coli K-12: AGA, RSCU 0.23</title></rect>
+<rect x="328" y="108" width="37" height="42" rx="3" fill="#cc7176"><title>Escherichia coli K-12: CGC, RSCU 2.39</title></rect>
+<rect x="367" y="108" width="37" height="42" rx="3" fill="#acbbd5"><title>Escherichia coli K-12: CTC, RSCU 0.63</title></rect>
+<rect x="406" y="108" width="37" height="42" rx="3" fill="#f0e0e2"><title>Escherichia coli K-12: ATC, RSCU 1.26</title></rect>
+<rect x="445" y="108" width="37" height="42" rx="3" fill="#e1b1b5"><title>Escherichia coli K-12: ACC, RSCU 1.74</title></rect>
+<rect x="484" y="108" width="37" height="42" rx="3" fill="#d07d82"><title>Escherichia coli K-12: CGT, RSCU 2.27</title></rect>
+<rect x="523" y="108" width="37" height="42" rx="3" fill="#d58d92"><title>Escherichia coli K-12: CCG, RSCU 2.10</title></rect>
+<rect x="562" y="108" width="37" height="42" rx="3" fill="#ccd5e5"><title>Escherichia coli K-12: TTA, RSCU 0.78</title></rect>
+<rect x="601" y="108" width="37" height="42" rx="3" fill="#e5bdc0"><title>Escherichia coli K-12: GGC, RSCU 1.62</title></rect>
+<rect x="640" y="108" width="37" height="42" rx="3" fill="#e3b8bc"><title>Escherichia coli K-12: AGC, RSCU 1.66</title></rect>
+<rect x="679" y="108" width="37" height="42" rx="3" fill="#97aacb"><title>Escherichia coli K-12: ACA, RSCU 0.53</title></rect>
+<rect x="718" y="108" width="37" height="42" rx="3" fill="#e9edf3"><title>Escherichia coli K-12: TCG, RSCU 0.93</title></rect>
+<rect x="757" y="108" width="37" height="42" rx="3" fill="#a5b5d2"><title>Escherichia coli K-12: CGG, RSCU 0.60</title></rect>
+<rect x="796" y="108" width="37" height="42" rx="3" fill="#e8c6c9"><title>Escherichia coli K-12: ATT, RSCU 1.52</title></rect>
+<rect x="835" y="108" width="37" height="42" rx="3" fill="#dfe4ee"><title>Escherichia coli K-12: TCT, RSCU 0.88</title></rect>
+<rect x="874" y="108" width="37" height="42" rx="3" fill="#ebd0d3"><title>Escherichia coli K-12: GCG, RSCU 1.42</title></rect>
+<rect x="913" y="108" width="37" height="42" rx="3" fill="#dae1ec"><title>Escherichia coli K-12: TTC, RSCU 0.85</title></rect>
+<text x="238" y="180" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#24344a">Bacillus subtilis 168</text>
+<rect x="250" y="153" width="37" height="42" rx="3" fill="#eaced1"><title>Bacillus subtilis 168: CTG, RSCU 1.44</title></rect>
+<rect x="289" y="153" width="37" height="42" rx="3" fill="#e6c0c4"><title>Bacillus subtilis 168: AGA, RSCU 1.58</title></rect>
+<rect x="328" y="153" width="37" height="42" rx="3" fill="#f0e1e4"><title>Bacillus subtilis 168: CGC, RSCU 1.24</title></rect>
+<rect x="367" y="153" width="37" height="42" rx="3" fill="#b6c3da"><title>Bacillus subtilis 168: CTC, RSCU 0.67</title></rect>
+<rect x="406" y="153" width="37" height="42" rx="3" fill="#f5eff1"><title>Bacillus subtilis 168: ATC, RSCU 1.10</title></rect>
+<rect x="445" y="153" width="37" height="42" rx="3" fill="#aebcd6"><title>Bacillus subtilis 168: ACC, RSCU 0.64</title></rect>
+<rect x="484" y="153" width="37" height="42" rx="3" fill="#f5f0f2"><title>Bacillus subtilis 168: CGT, RSCU 1.09</title></rect>
+<rect x="523" y="153" width="37" height="42" rx="3" fill="#e1b1b5"><title>Bacillus subtilis 168: CCG, RSCU 1.74</title></rect>
+<rect x="562" y="153" width="37" height="42" rx="3" fill="#f2e7e9"><title>Bacillus subtilis 168: TTA, RSCU 1.19</title></rect>
+<rect x="601" y="153" width="37" height="42" rx="3" fill="#edd6d9"><title>Bacillus subtilis 168: GGC, RSCU 1.36</title></rect>
+<rect x="640" y="153" width="37" height="42" rx="3" fill="#edd6d9"><title>Bacillus subtilis 168: AGC, RSCU 1.35</title></rect>
+<rect x="679" y="153" width="37" height="42" rx="3" fill="#e4babd"><title>Bacillus subtilis 168: ACA, RSCU 1.65</title></rect>
+<rect x="718" y="153" width="37" height="42" rx="3" fill="#a7b6d3"><title>Bacillus subtilis 168: TCG, RSCU 0.60</title></rect>
+<rect x="757" y="153" width="37" height="42" rx="3" fill="#ebeef5"><title>Bacillus subtilis 168: CGG, RSCU 0.94</title></rect>
+<rect x="796" y="153" width="37" height="42" rx="3" fill="#e8c7ca"><title>Bacillus subtilis 168: ATT, RSCU 1.51</title></rect>
+<rect x="835" y="153" width="37" height="42" rx="3" fill="#f1e2e5"><title>Bacillus subtilis 168: TCT, RSCU 1.23</title></rect>
+<rect x="874" y="153" width="37" height="42" rx="3" fill="#f6f4f6"><title>Bacillus subtilis 168: GCG, RSCU 1.05</title></rect>
+<rect x="913" y="153" width="37" height="42" rx="3" fill="#adbbd6"><title>Bacillus subtilis 168: TTC, RSCU 0.63</title></rect>
+<text x="238" y="225" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#24344a">Salmonella enterica LT2</text>
+<rect x="250" y="198" width="37" height="42" rx="3" fill="#b9353c"><title>Salmonella enterica LT2: CTG, RSCU 3.02</title></rect>
+<rect x="289" y="198" width="37" height="42" rx="3" fill="#5f7caf"><title>Salmonella enterica LT2: AGA, RSCU 0.25</title></rect>
+<rect x="328" y="198" width="37" height="42" rx="3" fill="#ca696e"><title>Salmonella enterica LT2: CGC, RSCU 2.47</title></rect>
+<rect x="367" y="198" width="37" height="42" rx="3" fill="#a4b5d2"><title>Salmonella enterica LT2: CTC, RSCU 0.59</title></rect>
+<rect x="406" y="198" width="37" height="42" rx="3" fill="#f1e2e4"><title>Salmonella enterica LT2: ATC, RSCU 1.24</title></rect>
+<rect x="445" y="198" width="37" height="42" rx="3" fill="#e2b4b7"><title>Salmonella enterica LT2: ACC, RSCU 1.71</title></rect>
+<rect x="484" y="198" width="37" height="42" rx="3" fill="#d9999e"><title>Salmonella enterica LT2: CGT, RSCU 1.98</title></rect>
+<rect x="523" y="198" width="37" height="42" rx="3" fill="#d28287"><title>Salmonella enterica LT2: CCG, RSCU 2.21</title></rect>
+<rect x="562" y="198" width="37" height="42" rx="3" fill="#c5cfe2"><title>Salmonella enterica LT2: TTA, RSCU 0.75</title></rect>
+<rect x="601" y="198" width="37" height="42" rx="3" fill="#db9ea3"><title>Salmonella enterica LT2: GGC, RSCU 1.92</title></rect>
+<rect x="640" y="198" width="37" height="42" rx="3" fill="#deaaae"><title>Salmonella enterica LT2: AGC, RSCU 1.81</title></rect>
+<rect x="679" y="198" width="37" height="42" rx="3" fill="#8299c1"><title>Salmonella enterica LT2: ACA, RSCU 0.42</title></rect>
+<rect x="718" y="198" width="37" height="42" rx="3" fill="#f5f7fa"><title>Salmonella enterica LT2: TCG, RSCU 0.99</title></rect>
+<rect x="757" y="198" width="37" height="42" rx="3" fill="#c3cee1"><title>Salmonella enterica LT2: CGG, RSCU 0.74</title></rect>
+<rect x="796" y="198" width="37" height="42" rx="3" fill="#e9c9cc"><title>Salmonella enterica LT2: ATT, RSCU 1.49</title></rect>
+<rect x="835" y="198" width="37" height="42" rx="3" fill="#c4cfe1"><title>Salmonella enterica LT2: TCT, RSCU 0.75</title></rect>
+<rect x="874" y="198" width="37" height="42" rx="3" fill="#e1b0b4"><title>Salmonella enterica LT2: GCG, RSCU 1.74</title></rect>
+<rect x="913" y="198" width="37" height="42" rx="3" fill="#cdd6e6"><title>Salmonella enterica LT2: TTC, RSCU 0.79</title></rect>
+<text x="238" y="270" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#24344a">Pseudomonas putida KT2440</text>
+<rect x="250" y="243" width="37" height="42" rx="3" fill="#b9353c"><title>Pseudomonas putida KT2440: CTG, RSCU 3.85</title></rect>
+<rect x="289" y="243" width="37" height="42" rx="3" fill="#3f619f"><title>Pseudomonas putida KT2440: AGA, RSCU 0.09</title></rect>
+<rect x="328" y="243" width="37" height="42" rx="3" fill="#b9353c"><title>Pseudomonas putida KT2440: CGC, RSCU 3.34</title></rect>
+<rect x="367" y="243" width="37" height="42" rx="3" fill="#c5d0e2"><title>Pseudomonas putida KT2440: CTC, RSCU 0.75</title></rect>
+<rect x="406" y="243" width="37" height="42" rx="3" fill="#d07e83"><title>Pseudomonas putida KT2440: ATC, RSCU 2.26</title></rect>
+<rect x="445" y="243" width="37" height="42" rx="3" fill="#c4585e"><title>Pseudomonas putida KT2440: ACC, RSCU 2.65</title></rect>
+<rect x="484" y="243" width="37" height="42" rx="3" fill="#f3e9eb"><title>Pseudomonas putida KT2440: CGT, RSCU 1.16</title></rect>
+<rect x="523" y="243" width="37" height="42" rx="3" fill="#d8959a"><title>Pseudomonas putida KT2440: CCG, RSCU 2.02</title></rect>
+<rect x="562" y="243" width="37" height="42" rx="3" fill="#3a5d9d"><title>Pseudomonas putida KT2440: TTA, RSCU 0.07</title></rect>
+<rect x="601" y="243" width="37" height="42" rx="3" fill="#ca696e"><title>Pseudomonas putida KT2440: GGC, RSCU 2.47</title></rect>
+<rect x="640" y="243" width="37" height="42" rx="3" fill="#c86369"><title>Pseudomonas putida KT2440: AGC, RSCU 2.53</title></rect>
+<rect x="679" y="243" width="37" height="42" rx="3" fill="#6580b2"><title>Pseudomonas putida KT2440: ACA, RSCU 0.28</title></rect>
+<rect x="718" y="243" width="37" height="42" rx="3" fill="#e9cbce"><title>Pseudomonas putida KT2440: TCG, RSCU 1.47</title></rect>
+<rect x="757" y="243" width="37" height="42" rx="3" fill="#e8ecf3"><title>Pseudomonas putida KT2440: CGG, RSCU 0.92</title></rect>
+<rect x="796" y="243" width="37" height="42" rx="3" fill="#a9b9d4"><title>Pseudomonas putida KT2440: ATT, RSCU 0.61</title></rect>
+<rect x="835" y="243" width="37" height="42" rx="3" fill="#5f7caf"><title>Pseudomonas putida KT2440: TCT, RSCU 0.25</title></rect>
+<rect x="874" y="243" width="37" height="42" rx="3" fill="#f8f8fa"><title>Pseudomonas putida KT2440: GCG, RSCU 1.01</title></rect>
+<rect x="913" y="243" width="37" height="42" rx="3" fill="#e5bec1"><title>Pseudomonas putida KT2440: TTC, RSCU 1.61</title></rect>
+<text x="238" y="315" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#24344a">Saccharomyces cerevisiae S288C</text>
+<rect x="250" y="288" width="37" height="42" rx="3" fill="#b5c2da"><title>Saccharomyces cerevisiae S288C: CTG, RSCU 0.67</title></rect>
+<rect x="289" y="288" width="37" height="42" rx="3" fill="#be444b"><title>Saccharomyces cerevisiae S288C: AGA, RSCU 2.85</title></rect>
+<rect x="328" y="288" width="37" height="42" rx="3" fill="#758eba"><title>Saccharomyces cerevisiae S288C: CGC, RSCU 0.36</title></rect>
+<rect x="367" y="288" width="37" height="42" rx="3" fill="#738cb9"><title>Saccharomyces cerevisiae S288C: CTC, RSCU 0.35</title></rect>
+<rect x="406" y="288" width="37" height="42" rx="3" fill="#cad4e4"><title>Saccharomyces cerevisiae S288C: ATC, RSCU 0.78</title></rect>
+<rect x="445" y="288" width="37" height="42" rx="3" fill="#d8dfeb"><title>Saccharomyces cerevisiae S288C: ACC, RSCU 0.84</title></rect>
+<rect x="484" y="288" width="37" height="42" rx="3" fill="#d9e0ec"><title>Saccharomyces cerevisiae S288C: CGT, RSCU 0.85</title></rect>
+<rect x="523" y="288" width="37" height="42" rx="3" fill="#91a5c8"><title>Saccharomyces cerevisiae S288C: CCG, RSCU 0.50</title></rect>
+<rect x="562" y="288" width="37" height="42" rx="3" fill="#e3b7ba"><title>Saccharomyces cerevisiae S288C: TTA, RSCU 1.68</title></rect>
+<rect x="601" y="288" width="37" height="42" rx="3" fill="#cdd6e6"><title>Saccharomyces cerevisiae S288C: GGC, RSCU 0.79</title></rect>
+<rect x="640" y="288" width="37" height="42" rx="3" fill="#b4c1d9"><title>Saccharomyces cerevisiae S288C: AGC, RSCU 0.67</title></rect>
+<rect x="679" y="288" width="37" height="42" rx="3" fill="#f1e2e5"><title>Saccharomyces cerevisiae S288C: ACA, RSCU 1.23</title></rect>
+<rect x="718" y="288" width="37" height="42" rx="3" fill="#a3b3d1"><title>Saccharomyces cerevisiae S288C: TCG, RSCU 0.58</title></rect>
+<rect x="757" y="288" width="37" height="42" rx="3" fill="#5f7caf"><title>Saccharomyces cerevisiae S288C: CGG, RSCU 0.25</title></rect>
+<rect x="796" y="288" width="37" height="42" rx="3" fill="#ecd3d6"><title>Saccharomyces cerevisiae S288C: ATT, RSCU 1.38</title></rect>
+<rect x="835" y="288" width="37" height="42" rx="3" fill="#e6c2c5"><title>Saccharomyces cerevisiae S288C: TCT, RSCU 1.56</title></rect>
+<rect x="874" y="288" width="37" height="42" rx="3" fill="#889dc4"><title>Saccharomyces cerevisiae S288C: GCG, RSCU 0.45</title></rect>
+<rect x="913" y="288" width="37" height="42" rx="3" fill="#d1d9e8"><title>Saccharomyces cerevisiae S288C: TTC, RSCU 0.81</title></rect>
+<text x="238" y="360" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#24344a">Halobacterium salinarum NRC-1</text>
+<rect x="250" y="333" width="37" height="42" rx="3" fill="#d4898e"><title>Halobacterium salinarum NRC-1: CTG, RSCU 2.14</title></rect>
+<rect x="289" y="333" width="37" height="42" rx="3" fill="#4163a1"><title>Halobacterium salinarum NRC-1: AGA, RSCU 0.10</title></rect>
+<rect x="328" y="333" width="37" height="42" rx="3" fill="#bd4249"><title>Halobacterium salinarum NRC-1: CGC, RSCU 2.86</title></rect>
+<rect x="367" y="333" width="37" height="42" rx="3" fill="#bd4148"><title>Halobacterium salinarum NRC-1: CTC, RSCU 2.87</title></rect>
+<rect x="406" y="333" width="37" height="42" rx="3" fill="#c4595f"><title>Halobacterium salinarum NRC-1: ATC, RSCU 2.64</title></rect>
+<rect x="445" y="333" width="37" height="42" rx="3" fill="#e0afb3"><title>Halobacterium salinarum NRC-1: ACC, RSCU 1.76</title></rect>
+<rect x="484" y="333" width="37" height="42" rx="3" fill="#889dc4"><title>Halobacterium salinarum NRC-1: CGT, RSCU 0.45</title></rect>
+<rect x="523" y="333" width="37" height="42" rx="3" fill="#d8959a"><title>Halobacterium salinarum NRC-1: CCG, RSCU 2.02</title></rect>
+<rect x="562" y="333" width="37" height="42" rx="3" fill="#3b5e9d"><title>Halobacterium salinarum NRC-1: TTA, RSCU 0.07</title></rect>
+<rect x="601" y="333" width="37" height="42" rx="3" fill="#d17f84"><title>Halobacterium salinarum NRC-1: GGC, RSCU 2.25</title></rect>
+<rect x="640" y="333" width="37" height="42" rx="3" fill="#e1b0b4"><title>Halobacterium salinarum NRC-1: AGC, RSCU 1.74</title></rect>
+<rect x="679" y="333" width="37" height="42" rx="3" fill="#6782b3"><title>Halobacterium salinarum NRC-1: ACA, RSCU 0.29</title></rect>
+<rect x="718" y="333" width="37" height="42" rx="3" fill="#d79398"><title>Halobacterium salinarum NRC-1: TCG, RSCU 2.04</title></rect>
+<rect x="757" y="333" width="37" height="42" rx="3" fill="#db9fa4"><title>Halobacterium salinarum NRC-1: CGG, RSCU 1.92</title></rect>
+<rect x="796" y="333" width="37" height="42" rx="3" fill="#6681b3"><title>Halobacterium salinarum NRC-1: ATT, RSCU 0.28</title></rect>
+<rect x="835" y="333" width="37" height="42" rx="3" fill="#5372aa"><title>Halobacterium salinarum NRC-1: TCT, RSCU 0.19</title></rect>
+<rect x="874" y="333" width="37" height="42" rx="3" fill="#dfabaf"><title>Halobacterium salinarum NRC-1: GCG, RSCU 1.79</title></rect>
+<rect x="913" y="333" width="37" height="42" rx="3" fill="#dda6aa"><title>Halobacterium salinarum NRC-1: TTC, RSCU 1.85</title></rect>
+<text x="250" y="418" font-family="Arial,sans-serif" font-size="12" fill="#526173">RSCU</text>
+<rect x="298" y="404" width="61" height="15" rx="2" fill="#2c5296"/>
+<text x="328" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#526173">0</text>
+<rect x="368" y="404" width="61" height="15" rx="2" fill="#92a6c8"/>
+<text x="398" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#526173">0.5</text>
+<rect x="438" y="404" width="61" height="15" rx="2" fill="#f8f9fb"/>
+<text x="468" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#526173">1</text>
+<rect x="508" y="404" width="61" height="15" rx="2" fill="#e8c8cb"/>
+<text x="538" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#526173">1.5</text>
+<rect x="578" y="404" width="61" height="15" rx="2" fill="#d8979c"/>
+<text x="608" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#526173">2</text>
+<rect x="648" y="404" width="61" height="15" rx="2" fill="#c9666c"/>
+<text x="678" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#526173">2.5</text>
+<rect x="718" y="404" width="61" height="15" rx="2" fill="#b9353c"/>
+<text x="748" y="436" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#526173">3</text>
+</svg>
