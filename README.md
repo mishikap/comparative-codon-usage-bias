@@ -1,20 +1,20 @@
-# Bioinformatics analysis of comparative codon usage across 3 domains of life; Bacteria, Archaea, Eukarya 
+# Bioinformatics analysis of comparative codon usage across 3 domains of life; Bacteria, Archaea, Eukarya 🧫
 
 A University of Waterloo BIOL469 Genomics project; comparing coding-sequence codon usage and tRNA predictions across six organisms. 
 
 This repository contains selected original EMBOSS CUSP and tRNAscan-SE outputs, result figures I made in R for the course project, and **new, post-course Python analysis scripts**. The Python scripts were written for this portfolio version using the archived outputs; they were not the original project's code.
 
-## Project workflow
+## 🧬 Project workflow
 
-![Workflow for the codon usage, tRNA, and GO analyses](figures/course_results/codon-bias-project-workflow.png)
-
-## Key findings
+![Workflow for the codon usage, tRNA, and GO analyses](figures/course_results/codon_bias_project_workflow.png)
+ 
+## 🔎 Key findings
 
 1. Codon usage varied across the six organisms. The RSCU heatmaps highlight synonymous codons with different usage patterns, particularly when comparing bacteria with yeast and *H. salinarum*.
 2. Predicted tRNA gene counts also differed among organisms. These results describe tRNA repertoires; they do not establish that tRNA copy number causes the observed codon preferences.
 3. The GO figures summarize the relative prominence of annotations within each organism. They are descriptive comparisons, not statistical enrichment tests.
 
-## Results from the project
+## 📖 Results from the project
 
 I made these original figures in R for the group project. The R source scripts are included under `scripts/r/` in versions adapted to use paths inside this repository. Original Desktop paths were removed, a missing setting was supplied to the codon script, and the tRNA script reads a CSV export of the workbook's summary sheet. The original figures are preserved under `figures/course_results/`; reruns write to `figures/generated_r/`.
 
@@ -48,13 +48,13 @@ Rscript scripts/r/trna_copy_numbers.R
 
 `data/cusp/` supplies the codon tables, `data/go/go_annotations_summary.csv` supplies GO counts, and `data/trnascan/summary_outputs.csv` is an export of the workbook's summary sheet. The scripts were reviewed for file paths but **could not be executed in the packaging environment**, which does not have R. The archived course figures remain available even if a rerun produces a different appearance.
 
-## Reproducible portfolio view
+## 📊 Reproducible portfolio view
 
 ![Heatmap of relative synonymous codon usage for 18 codons across six organisms](figures/rscu_heatmap.svg)
 
 **Relative synonymous codon usage (RSCU)** compares each codon's observed count with an equal-use expectation among codons encoding the same amino acid. The heatmap shows 18 codons with the most variable RSCU among the six organisms, selected from the archived CUSP tables. Colors describe differences in this dataset; they are not statistical significance tests. Run `scripts/plot_rscu.py` to regenerate the figure.
 
-## Organisms and inputs
+## 🧪 Organisms and inputs
 
 | Organism | CDS accession in original FASTA headers | tRNA scan accession |
 | --- | --- | --- |
@@ -69,7 +69,7 @@ Rscript scripts/r/trna_copy_numbers.R
 
 **FASTA provenance:** The archived FASTA files have not been established as the exact inputs that produced every CUSP table. Their record counts differ from five of the six tables (for example, 4,410 sequences in `K12genomic.fna` versus `#CdsCount: 4775` in `K12codonusage.txt`). The analysis scripts use the saved CUSP tables as their inputs, not these reference FASTA files. Avoid claiming full end-to-end reproduction from the FASTAs until the input versions and annotations are reconciled.
 
-## Reproduce the portfolio analysis
+## 📖 Reproduce the portfolio analysis
 
 Requires Python 3.9+ and no third-party packages:
 
@@ -86,6 +86,6 @@ The first script writes:
 
 The second script makes the SVG above directly from the saved RSCU CSV. The `results/` and `figures/` directories contain example outputs from the supplied data.
 
-## Scope and interpretation
+## 🔭 Scope and interpretation
 
 The original course project also examined GO annotations and selected ribosomal proteins. This repository includes selected original GO figures but its runnable scripts focus on codon and tRNA tables. The original workflow used EMBOSS CUSP on annotated CDS FASTA files and tRNAscan-SE on genomes; these Python scripts start **after** those tools and do not redo genome annotation or tRNA scanning. Anticodon abundance alone does not establish one-to-one codon translation because wobble pairing and modifications matter. No statistically tested relationship between tRNA copy number and codon preference is claimed here. 
