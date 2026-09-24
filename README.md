@@ -1,10 +1,20 @@
-# Comparative codon usage across domains of life
+# Bioinformatics analysis of comparative codon usage across 3 domains of life; Bacteria, Archaea, Eukarya 
 
-A BIOL 469 genomics group project comparing coding-sequence codon usage and tRNA predictions across six organisms. 
+A University of Waterloo BIOL469 Genomics project; comparing coding-sequence codon usage and tRNA predictions across six organisms. 
 
 This repository contains selected original EMBOSS CUSP and tRNAscan-SE outputs, result figures I made in R for the course project, and **new, post-course Python analysis scripts**. The Python scripts were written for this portfolio version using the archived outputs; they were not the original project's code.
 
-## Results from the course project
+## Project workflow
+
+![Workflow for the codon usage, tRNA, and GO analyses](figures/codon-bias-project-workflow.png)
+
+## Key findings
+
+1. Codon usage varied across the six organisms. The RSCU heatmaps highlight synonymous codons with different usage patterns, particularly when comparing bacteria with yeast and *H. salinarum*.
+2. Predicted tRNA gene counts also differed among organisms. These results describe tRNA repertoires; they do not establish that tRNA copy number causes the observed codon preferences.
+3. The GO figures summarize the relative prominence of annotations within each organism. They are descriptive comparisons, not statistical enrichment tests.
+
+## Results from the project
 
 I made these original figures in R for the group project. The R source scripts are included under `scripts/r/` in versions adapted to use paths inside this repository. Original Desktop paths were removed, a missing setting was supplied to the codon script, and the tRNA script reads a CSV export of the workbook's summary sheet. The original figures are preserved under `figures/course_results/`; reruns write to `figures/generated_r/`.
 
@@ -20,13 +30,11 @@ I made these original figures in R for the group project. The R source scripts a
 
 ![Original R plot of tRNA calls across six organisms](figures/course_results/fig3_tRNA_scatter_by_codon.png)
 
-[tRNA scatter plot (PDF)](figures/course_results/fig3_tRNA_scatter_by_codon.pdf)
-
 **GO annotations:** relative prominence of the most frequent GO terms among the archived annotations (`data/go/go_annotations_summary.csv`). These are descriptive summaries, not a statistical GO enrichment test.
 
 ![Original R chart showing the shares of frequent GO terms by organism](figures/course_results/fig2_GO_top8_stacked.png)
 
-[GO prominence bubble plot (PNG)](figures/course_results/fig2_GO_bubble.png) · [GO prominence bubble plot (PDF)](figures/course_results/fig2_GO_bubble.pdf)
+[GO prominence bubble plot (PNG)](figures/course_results/fig2_GO_bubble.png) 
 
 ### Recreate the R figures
 
@@ -80,4 +88,4 @@ The second script makes the SVG above directly from the saved RSCU CSV. The `res
 
 ## Scope and interpretation
 
-The original course project also examined GO annotations and selected ribosomal proteins. This repository includes selected original GO figures but its runnable scripts focus on codon and tRNA tables. The original workflow used EMBOSS CUSP on annotated CDS FASTA files and tRNAscan-SE on genomes; these Python scripts start **after** those tools and do not redo genome annotation or tRNA scanning. Anticodon abundance alone does not establish one-to-one codon translation because wobble pairing and modifications matter. No statistically tested relationship between tRNA copy number and codon preference is claimed here.
+The original course project also examined GO annotations and selected ribosomal proteins. This repository includes selected original GO figures but its runnable scripts focus on codon and tRNA tables. The original workflow used EMBOSS CUSP on annotated CDS FASTA files and tRNAscan-SE on genomes; these Python scripts start **after** those tools and do not redo genome annotation or tRNA scanning. Anticodon abundance alone does not establish one-to-one codon translation because wobble pairing and modifications matter. No statistically tested relationship between tRNA copy number and codon preference is claimed here. 
