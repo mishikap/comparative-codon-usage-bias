@@ -1,4 +1,4 @@
-## ---- Required packages you already have ----
+## ---- Required packages ----
 library(readr)    # read_lines()
 library(stringr)  # str_detect()
 library(lattice)  # levelplot()
