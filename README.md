@@ -6,7 +6,7 @@ This repository contains selected original EMBOSS CUSP and tRNAscan-SE outputs, 
 
 ## Project workflow
 
-![Workflow for the codon usage, tRNA, and GO analyses](figures/codon-bias-project-workflow.png)
+![Workflow for the codon usage, tRNA, and GO analyses](figures/course_results/codon-bias-project-workflow.png)
 
 ## Key findings
 
