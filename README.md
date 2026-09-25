@@ -4,6 +4,13 @@ A University of Waterloo BIOL469 Genomics project; comparing coding-sequence cod
 
 This repository contains selected original EMBOSS CUSP and tRNAscan-SE outputs, result figures I made in R for the course project, and **new, post-course Python analysis scripts**. The Python scripts were written for this portfolio version using the archived outputs; they were not the original project's code.
 
+## Tools and techniques
+
+- **Codon usage:** EMBOSS CUSP outputs and relative synonymous codon usage (RSCU) comparisons across six organisms
+- **tRNA analysis:** tRNAscan-SE predictions and comparisons of predicted tRNA gene counts
+- **Visualization:** R figures showing codon usage patterns, tRNA counts, and descriptive GO annotation summaries
+- **Portfolio analysis:** Python scripts written after the course project to explore the archived outputs
+  
 ## 🧬 Project workflow
 
 ![Workflow for the codon usage, tRNA, and GO analyses](figures/course_results/codon_bias_project_workflow.png)
