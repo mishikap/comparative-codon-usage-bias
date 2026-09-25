@@ -4,7 +4,7 @@ A University of Waterloo BIOL469 Genomics project; comparing coding-sequence cod
 
 This repository contains selected original EMBOSS CUSP and tRNAscan-SE outputs, result figures I made in R for the course project, and **new, post-course Python analysis scripts**. The Python scripts were written for this portfolio version using the archived outputs; they were not the original project's code.
 
-## Tools and techniques
+## ✏️ Tools and techniques
 
 - **Codon usage:** EMBOSS CUSP and RSCU comparisons
 - **tRNA analysis:** tRNAscan-SE predictions
