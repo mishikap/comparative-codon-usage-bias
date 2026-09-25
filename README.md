@@ -95,3 +95,5 @@ The second script makes the SVG above directly from the saved RSCU CSV. The `res
 ## 🔭 Scope and interpretation
 
 The original course project also examined GO annotations and selected ribosomal proteins. This repository includes selected original GO figures but its runnable scripts focus on codon and tRNA tables. The original workflow used EMBOSS CUSP on annotated CDS FASTA files and tRNAscan-SE on genomes; these Python scripts start **after** those tools and do not redo genome annotation or tRNA scanning. Anticodon abundance alone does not establish one-to-one codon translation because wobble pairing and modifications matter. No statistically tested relationship between tRNA copy number and codon preference is claimed here. 
+
+**Author:** Mishika Phogat
