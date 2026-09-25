@@ -6,10 +6,10 @@ This repository contains selected original EMBOSS CUSP and tRNAscan-SE outputs, 
 
 ## Tools and techniques
 
-- **Codon usage:** EMBOSS CUSP outputs and relative synonymous codon usage (RSCU) comparisons across six organisms
-- **tRNA analysis:** tRNAscan-SE predictions and comparisons of predicted tRNA gene counts
-- **Visualization:** R figures showing codon usage patterns, tRNA counts, and descriptive GO annotation summaries
-- **Portfolio analysis:** Python scripts written after the course project to explore the archived outputs
+- **Codon usage:** EMBOSS CUSP and RSCU comparisons
+- **tRNA analysis:** tRNAscan-SE predictions
+- **R visualization:** `lattice` for codon-usage heatmaps, tRNA plots, and GO annotation summaries
+- **Python analysis:** Parsing archived outputs, calculating summaries, and generating a heatmap
   
 ## 🧬 Project workflow
 
