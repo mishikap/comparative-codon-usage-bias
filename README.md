@@ -1,6 +1,6 @@
 # Bioinformatics analysis of comparative codon usage across 3 domains of life; Bacteria, Archaea, Eukarya 🧫
 
-A University of Waterloo BIOL469 Genomics project; comparing coding-sequence codon usage and tRNA predictions across six organisms. 
+A University of Waterloo BIOL469 Genomics project (November 2025); comparing coding-sequence codon usage and tRNA predictions across six organisms. 
 
 This repository contains selected original EMBOSS CUSP and tRNAscan-SE outputs, result figures I made in R for the course project, and **new, post-course Python analysis scripts**. The Python scripts were written for this portfolio version using the archived outputs; they were not the original project's code.
 
